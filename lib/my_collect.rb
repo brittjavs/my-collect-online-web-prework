@@ -5,7 +5,7 @@ def my_collect(array)
     empty_array << yield(array[i])
     i += 1
   end
-  name_collection
+  empty_array
 
 end
 
